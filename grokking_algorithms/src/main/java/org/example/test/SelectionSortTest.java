@@ -22,7 +22,7 @@ public class SelectionSortTest {
     @Test
     public void testSelection2Sort1() {
         SelectionSort2 selectionSort2 = new SelectionSort2();
-        int[] arr = {5, 3, 6, 2, 10};
+        int[] arr = {5, 3, 6, 2, 10};//change
 
         System.out.println(Arrays.toString(selectionSort2.selectionSort(arr))); // [2, 3, 5, 6, 10]
     }
