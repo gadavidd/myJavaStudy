@@ -5,7 +5,7 @@ Java was created in 1995 by James Gosling, Mike Sheridan, and Patrick Naughton a
 
 Java is crucial in the software industry, powering a vast array of applications, from enterprise-level systems and web applications to mobile apps on Android and large-scale data processing frameworks. Its "write once, run anywhere" philosophy has made it a staple in the development world, particularly for building cross-platform applications.
 
-My professional journey began with Java, especially in the realm of constraint programming, which required a solid grasp of the language. This repository is a collection of practical code examples and solutions I have developed over time. It focuses solely on hands-on code, without delving into theoretical aspects. Here, you will find key learnings, practical implementations, and useful snippets that reflect my experiences and insights gained while working with Java.
+My professional journey began with Java, especially in the realm of constraint programming, which required a solid grasp of the language. TThis repository is a collection of practical code examples and solutions I have developed over time using IntelliJ IDEA. It focuses solely on hands-on code, without delving into theoretical aspects. Here, you will find key learnings, practical implementations, and useful snippets that reflect my experiences and insights gained while working with Java.
 
 Feel free to explore and use the code in this repository for your own learning and projects. Contributions and feedback are always welcome!
 
