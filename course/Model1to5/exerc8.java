@@ -2,14 +2,13 @@ package course.Model1to5;//Else-if
 import java.util.Locale;
 import java.util.Scanner;
 public class exerc8{
-
-//Fazer um programa para ler um número inteiro, e depois dizer se este número é negativo ou não.
+//Check whether you must pay income tax and the amount
 
 public static void main (String[]args){
 		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Informe sua renda R$ :");
+		System.out.println("Enter your income R$ :");
 		double salarioRombus = sc.nextDouble();
 		double impostoLisarb = 0;
 		
@@ -29,10 +28,10 @@ public static void main (String[]args){
 			impostoLisarb += (salarioRombus - 4500.00) * 0.28;
 		}
 		else {
-			System.out.print("Valor informado errado");
+			System.out.print("Wrong value entered");
 		}
 		if(impostoLisarb == 0) {
-			System.out.print("Isento");
+			System.out.print("Free");
 		}
 		else {
 		System.out.print("R$ " + impostoLisarb);
