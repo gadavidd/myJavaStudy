@@ -10,13 +10,13 @@ public class forExercise4 {
 		int n = sc.nextInt();
 		
 		for(int i = 0; i < n; i++) {
-			System.out.println("Insira o valor de x");
+			System.out.println("Enter the value of x");
 			int x = sc.nextInt();
-			System.out.println("Insira o valor de x");
+			System.out.println("Enter the value of y");
 			int y = sc.nextInt();
 			
 			if(y == 0) {
-				System.out.println("divisao impossivel");
+				System.out.println("impossible division");
 			}
 			else {
 				double z = (double)x/y;

@@ -2,7 +2,7 @@ package course.Model7;
 
 import java.util.Scanner;
 
-public class functions {
+public class Functions {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

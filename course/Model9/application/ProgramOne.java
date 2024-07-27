@@ -10,8 +10,7 @@ public class ProgramOne {
 	
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
-		
+
 		System.out.println("Name: ");
 		String name = sc.nextLine();
 				
@@ -22,12 +21,7 @@ public class ProgramOne {
 		int quantity = sc.nextInt();
 		
 		Product product = new Product(name,price,quantity);
-		
-			
-//		System.out.println("Name of Product: " + product.name);
-//		System.out.println("Quantity in Stock: " + product.quantity);
-//		System.out.println("Value in Stock: " + product.totalValueInStock());
-		
+
 		System.out.println("Product data: " + product);
 		
 		System.out.println("Enter the number of products to be added in stock: ");

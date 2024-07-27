@@ -19,12 +19,7 @@ public class ProgramTwo {
 		double price = sc.nextDouble();
 		
 		Product product = new Product(name,price);
-		
-			
-//		System.out.println("Name of Product: " + product.name);
-//		System.out.println("Quantity in Stock: " + product.quantity);
-//		System.out.println("Value in Stock: " + product.totalValueInStock());
-		
+
 		System.out.println("Product data: " + product);
 		
 		System.out.println("Enter the number of products to be added in stock: ");

@@ -12,12 +12,12 @@ public class whileTest {
 		char response;
 		
 		do  {
-			System.out.println("Digite a temperatura em Celsius: ");
+			System.out.println("Enter the temperature in Celsius :");
 			
 			double temperatureCelsius = sc.nextDouble();
 			double temperatureFahrenheit = 9.0 * temperatureCelsius / 5.0 + 32.0;
-			System.out.printf("Equivalente em Fahrenheit:  %.1f%n", temperatureFahrenheit);
-			System.out.println("Deseja repetir (S/N)? ");
+			System.out.printf("Fahrenheit equivalent:  %.1f%n", temperatureFahrenheit);
+			System.out.println("Do you want to repeat (S/N)? ");
 			response = sc.next().charAt(0);
 		}
 		while (response != 'n');

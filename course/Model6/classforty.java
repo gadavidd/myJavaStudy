@@ -8,15 +8,15 @@ public class classforty {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		double largura = sc.nextDouble();
-		double comprimento = sc.nextDouble();
-		double metroQuadrado = sc.nextDouble();
+		double width = sc.nextDouble();
+		double length = sc.nextDouble();
+		double squareMeter = sc.nextDouble();
 		
-		double area = largura * comprimento;
-		double preco = area * metroQuadrado;
+		double area = width * length;
+		double price = area * squareMeter;
 		
 		System.out.printf("AREA = %.2f%n", area);
-		System.out.printf("PRECO = %.2f%n", preco);
+		System.out.printf("PRICE = %.2f%n", price);
 		sc.close();
 	}
 }

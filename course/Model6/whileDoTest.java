@@ -6,16 +6,16 @@ public class whileDoTest {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Digite a senha:");
+		System.out.println("Type the password:");
 		
 		int password = sc.nextInt();
 		
 		while (password != 2002) {
-			System.out.println("Senha invalida");
+			System.out.println("Invalid password");
 			password = sc.nextInt();
 		}
 		
-		System.out.println("Acesso permitido");
+		System.out.println("Access allowed");
 		sc.close();
 	}
 }

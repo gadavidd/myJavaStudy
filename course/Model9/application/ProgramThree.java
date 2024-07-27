@@ -10,8 +10,7 @@ public class ProgramThree {
 	
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
-		
+
 		System.out.println("Name: ");
 		String name = sc.nextLine();
 				

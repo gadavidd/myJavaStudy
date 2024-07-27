@@ -7,8 +7,6 @@ import java.util.Scanner;
 
 public class StaticMethod3 {
 
-	
-	
 	public static void main(String[] args) {	
 	
 		Locale.setDefault(Locale.US);

@@ -14,11 +14,11 @@ I highly recommend considering the references listed at the end of this reposito
 ## Acknowledgement
 
 
-- **Books**: Grokking Algorithms[1], Java: How to Program [2] and Real Software Development: A Project Guide to Java Fundamentals [3];
+- **Books**: Grokking Algorithms[1][2], Java: How to Program [3] and Real Software Development: A Project Guide to Java Fundamentals [4];
 
-- **Courses**: Complete Java Object Oriented Programming + Projects [4];
+- **Courses**: Complete Java Object Oriented Programming + Projects [5];
 
-- **Websites**: Roadmap [5];
+- **Websites**: Roadmap-Java [6];
 
 
 ## Acquired knowledge
@@ -36,10 +36,12 @@ I highly recommend considering the references listed at the end of this reposito
 
 [1] A. Bhargava, *Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People*, 1st ed., Novatec, 2017.
 
-[2] P. Deitel and H. Deitel, *Java®: Como Programar*, 10th ed., Pearson Universidades, 2016.
+[2] A. Bhargava, *Grokking Algorithms*, GitHub, 2024. [Online]. Available: https://github.com/egonSchiele/grokking_algorithms. [Accessed: 2024].
 
-[3] R.G. Urma, R. Warburton, *Real Software Development: A Project Guide to Java Fundamentals*, 1st ed., O'Reilly Media, 2021.
+[3] P. Deitel and H. Deitel, *Java®: Como Programar*, 10th ed., Pearson Universidades, 2016.
 
-[4] Nelio Alves, "Java COMPLETO Programação Orientada a Objetos + Projetos" Udemy, 2024. [Online]. Available: https://www.udemy.com/course/java-curso-completo. [Accessed: 2024].
+[4] R.G. Urma, R. Warburton, *Real Software Development: A Project Guide to Java Fundamentals*, 1st ed., O'Reilly Media, 2021.
 
-[5] "Java Developer Roadmap," Roadmap.sh, 2023. [Online]. Available: https://roadmap.sh/java. [Accessed: 2024].
+[5] Nelio Alves, "Java COMPLETO Programação Orientada a Objetos + Projetos" Udemy, 2024. [Online]. Available: https://www.udemy.com/course/java-curso-completo. [Accessed: 2024].
+
+[6] "Java Developer Roadmap," Roadmap.sh, 2023. [Online]. Available: https://roadmap.sh/java. [Accessed: 2024].

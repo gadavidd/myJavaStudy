@@ -6,26 +6,26 @@ public class whileExercise3 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Insira o código do combustível:");
-		int combustivel = sc.nextInt();
-		int alcool = 0 , gasolina = 0 , diesel = 0;
+		System.out.println("Enter fuel code :");
+		int fuel = sc.nextInt();
+		int alcohol = 0 , gas = 0 , diesel = 0;
 		
-		while (combustivel != 4 ) {
-			if (combustivel == 1) {
-				alcool += 1;
+		while (fuel != 4 ) {
+			if (fuel == 1) {
+				alcohol += 1;
 			}
-			else if (combustivel == 2) {
-				gasolina += 1;
+			else if (fuel == 2) {
+				gas += 1;
 			}
-			else if (combustivel == 3) {
+			else if (fuel == 3) {
 				diesel += 1;
 			}
-			combustivel = sc.nextInt();
+			fuel = sc.nextInt();
 		}
 			
-		System.out.println("MUITO OBRIGADO");
-		System.out.println("Alcool: " + alcool);
-		System.out.println("Gasolina: " + gasolina);
+		System.out.println("Thank very much");
+		System.out.println("Alcohol: " + alcohol);
+		System.out.println("Gasoline: " + gas);
 		System.out.println("Diesel: " + diesel);
 		sc.close();
 	}

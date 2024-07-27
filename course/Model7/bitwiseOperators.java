@@ -1,6 +1,6 @@
 package course.Model7;
 
-public class operadoresBitwise {
+public class bitwiseOperators {
 	public static void main(String[] args) {
 		
 		String original = "abcde FGHIJ ABC abc DEFG ";

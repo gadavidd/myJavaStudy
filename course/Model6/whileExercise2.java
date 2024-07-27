@@ -6,28 +6,28 @@ public class whileExercise2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Insira o valor de X :");
+		System.out.println("Enter the value of X :");
 		double x = sc.nextDouble();
-		System.out.println("Insira o valor de Y :");
+		System.out.println("Enter the value of Y :");
 		double y = sc.nextDouble();
 		
 		while (x != 0 && y != 0 ) {
 			if(x > 0) {
 				if(y > 0) {
-					System.out.println("primeiro");
+					System.out.println("first");
 			}	else if (y < 0){
-					System.out.println("quarto");
+					System.out.println("fourth");
 			}}
 			else if(x < 0) {
 				if(y > 0) {
-					System.out.println("segundo");
+					System.out.println("second");
 			}	else if (y < 0) {
-					System.out.println("terceiro");
+					System.out.println("third");
 			}}
 			
-			System.out.println("Insira o valor de X :");
+			System.out.println("Enter the value of X :");
 			x = sc.nextDouble();
-			System.out.println("Insira o valor de Y :");
+			System.out.println("Enter the value of Y :");
 			y = sc.nextDouble();
 		}
 
