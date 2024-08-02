@@ -1,11 +1,25 @@
 package course.Model10.entities;
 
-public class Employees {
-    
+public class Employee {
+    private int id;
+    private String name;
+    private double salary;
 
+    public Employee(int id, String name, double salary){
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+    }
 
-    Employee #1:
-    Id: 333
-    Name: Maria Brown
-    Salary: 4000.00
+    public int getId(){
+        return id;
+    }
+
+    public void increaseSalary(double percentage){
+        this.salary = salary*(1+(percentage/100));
+    }
+    @Override
+    public String toString() {
+        return id + ", " + name + ", " + salary;
+    }
 }
