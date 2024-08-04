@@ -1,13 +1,9 @@
-package org.example.test;
+package materials.src.main.java.org.example.books.grokking_algorithms.test;
 
-import org.example.main.DijkstrasAlgorithm;
-import org.example.main.SelectionSort;
+import materials.src.main.java.org.example.books.grokking_algorithms.main.DijkstrasAlgorithm;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 
 public class DijkstrasAlgorithmTest {
 

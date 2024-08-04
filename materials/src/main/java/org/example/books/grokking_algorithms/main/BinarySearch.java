@@ -1,12 +1,6 @@
-package org.example.main;
+package materials.src.main.java.org.example.books.grokking_algorithms.main;
 
 public class BinarySearch {
-    public static void main(String[] args) {
-        int[] myList = {87, 21, 45, 93};
-
-        System.out.println(binarySearch(myList, 93));
-        System.out.println(binarySearch(myList, 16));
-    }
 
     public static int binarySearch(int[] list, int item) {
         if (isListEmpty(list)) {

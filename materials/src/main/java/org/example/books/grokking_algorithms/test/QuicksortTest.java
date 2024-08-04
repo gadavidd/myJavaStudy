@@ -1,6 +1,6 @@
-package org.example.test;
+package materials.src.main.java.org.example.books.grokking_algorithms.test;
 
-import org.example.main.Quicksort;
+import materials.src.main.java.org.example.books.grokking_algorithms.main.Quicksort;
 import org.junit.Test;
 
 import java.util.Arrays;

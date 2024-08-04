@@ -1,4 +1,4 @@
-package org.example.main;
+package materials.src.main.java.org.example.books.grokking_algorithms.main;
 
 // this version uses raw arrays instead of ArrayList
 public class SelectionSort2 {

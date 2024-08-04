@@ -1,6 +1,6 @@
-package org.example.test;
+package materials.src.main.java.org.example.books.grokking_algorithms.test;
 
-import org.example.main.Factorial;
+import materials.src.main.java.org.example.books.grokking_algorithms.main.Factorial;
 import org.junit.Assert;
 import org.junit.Test;
 

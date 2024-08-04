@@ -1,7 +1,6 @@
-package org.example.test;
+package materials.src.main.java.org.example.books.grokking_algorithms.test;
 
-import org.example.main.DijkstrasAlgorithm;
-import org.example.main.GreedyAlgorithms;
+import materials.src.main.java.org.example.books.grokking_algorithms.main.GreedyAlgorithms;
 import org.junit.Test;
 
 import java.util.Arrays;

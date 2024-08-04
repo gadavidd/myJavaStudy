@@ -1,6 +1,6 @@
-package org.example.test;
+package materials.src.main.java.org.example.books.grokking_algorithms.test;
 
-import org.example.main.BinarySearch;
+import materials.src.main.java.org.example.books.grokking_algorithms.main.BinarySearch;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -47,6 +47,15 @@ public class BinarySearchTest {
 
         Assert.assertEquals(1, binarySearch.binarySearch(testList, 3));
         Assert.assertEquals(-1, binarySearch.binarySearch(testList, 77));
+    }
+
+    @Test
+    public void testSimple() {
+        BinarySearch binarySearch = new BinarySearch();
+        int[] myList = {87, 21, 45, 93};
+
+        System.out.println(binarySearch.binarySearch(myList, 93));
+        System.out.println(binarySearch.binarySearch(myList, 16));
     }
 }
 

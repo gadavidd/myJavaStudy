@@ -1,10 +1,7 @@
-package org.example.test;
+package materials.src.main.java.org.example.books.grokking_algorithms.test;
 
-import org.example.main.Recursion;
-import org.example.main.SelectionSort2;
+import materials.src.main.java.org.example.books.grokking_algorithms.main.Recursion;
 import org.junit.Test;
-
-import java.util.Arrays;
 
 public class RecursionTest {
 

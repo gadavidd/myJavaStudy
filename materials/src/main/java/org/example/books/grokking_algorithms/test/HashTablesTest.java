@@ -1,6 +1,6 @@
-package org.example.test;
+package materials.src.main.java.org.example.books.grokking_algorithms.test;
 
-import org.example.main.HashTables;
+import materials.src.main.java.org.example.books.grokking_algorithms.main.HashTables;
 import org.junit.Test;
 
 public class HashTablesTest {

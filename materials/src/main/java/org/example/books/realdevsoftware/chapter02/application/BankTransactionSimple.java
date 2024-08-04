@@ -1,4 +1,4 @@
-package materials.src.main.java.org.example.books.realdevsoftware;
+package materials.src.main.java.org.example.books.realdevsoftware.chapter02.application;
 
 import java.io.IOException;
 import java.nio.file.Files;

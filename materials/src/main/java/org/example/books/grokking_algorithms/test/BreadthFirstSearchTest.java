@@ -1,11 +1,7 @@
-package org.example.test;
+package materials.src.main.java.org.example.books.grokking_algorithms.test;
 
-import org.example.main.BinarySearch;
-import org.example.main.BreadthFirstSearch;
-import org.junit.Assert;
+import materials.src.main.java.org.example.books.grokking_algorithms.main.BreadthFirstSearch;
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
 
 import java.util.Arrays;
 
